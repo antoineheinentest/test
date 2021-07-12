@@ -1,0 +1,266 @@
+/* Navigation */
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 100px;
+    height: 100px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #f39406ec;
+    border-bottom: 3px solid #187600;
+}
+h1
+{
+    color: rgb(241, 100, 19);
+}
+
+h2
+{
+    color: olive;
+    font-style: oblique;
+}
+
+h3
+{
+  color: rgb(0, 0, 0);
+}
+h4
+{
+color: purple;
+
+}
+#video_background
+{
+position: absolute; 
+bottom: 0px; 
+right: 0px; 
+min-width: 100%; 
+min-height:90%; 
+width: auto; 
+height: 500; 
+z-index: -1000; 
+overflow: hidden;
+   }
+#imageflottante
+{
+   animation-duration: 15s;
+  animation-name: glissement;
+}
+@keyframes glissement {
+   from {
+     margin-left: 100%;
+     width: 300%;
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+ }
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+body
+{
+
+cursor: url('feuille.ico'), pointer;
+background-image: url(Images/Illustrations/leaves-5643327_1920.png);
+}
+
+
+
+/* 	bouton */
+
+img
+{
+   cursor: url('feuille 2.ico'), pointer;
+ }
+
+
+
+
+/* diaporama */
+.diapo{
+   position: relative;
+   overflow: hidden;
+   width: 800px;
+}
+
+#nav-droite, #nav-gauche{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   color: white;
+   font-size: 3em;
+}
+
+#nav-droite{
+   right: 100px;
+}
+#nav-gauche{
+   left: 100px;
+}
+
+.elements{
+   display: flex;
+   transition: 1s linear;
+}
+
+.element{
+   flex: 1 0 100%;
+   position: relative;
+}
+
+.element > img{
+   width: 100%;
+}
+
+.caption{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   background-color: rgba(255,255,255,0.4);
+   padding: 30px;
+}
+
+
+
+ @keyframes glissement {
+   from {
+     margin-left: 100%;
+     width: 300%;
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+ }
+
+
+ nav
+ {
+   animation-duration: 3s;
+   animation-name: glissement-menu;
+  
+ }
+ @keyframes glissement-menu {
+   from {
+     margin-left: 100%;
+     width: 300%;
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+     }
+}
+
+
+
+
+
+[type="search"] {
+   -webkit-appearance: textfield;
+   -webkit-box-sizing: content-box;
+}
+
+
+#le_bouton 
+{
+   position: fixed;
+   top: 800px;
+   left:1100px;
+  }
+#fcf-form
+{
+   background-image: url(Images/Illustrations/floral-1814372_1920.jpg);
+}
+
+#avertissement
+{color: red;}
+
+
+#parcourir
+{
+   color: seagreen;
+   position: absolute; top
+}
+
+
+#photos
+{
+   color: red;
+   }
+
+
+   #toTop {
+      display:none;
+      text-decoration:none;
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      overflow:hidden;
+      width:51px;
+      height:51px;
+      border:none;
+      text-indent:-999px;
+      background-image: url(http://sd-1.archive-host.com/membres/images/3347790973941088/uitotop.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      
+      }
+      
+      #toTopHover {
+      background:url(http://sd-1.archive-host.com/membres/images/3347790973941088/uitotop.png) no-repeat left -51px;
+      width:51px;
+      height:51px;
+      display:block;
+      overflow:hidden;
+      float:left;
+      opacity: 0;
+      -moz-opacity: 0;
+      filter:alpha(opacity=0);
+      }
+      
+      #toTop:active, #toTop:focus {
+      outline:none;
+      }

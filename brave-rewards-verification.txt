@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vegetalsearch.alwaysdata.net
+Token: 3c7d7032871df6002ecf7c4f52f4fbfddf241b0d0eaf4b519ef32f6897e50534

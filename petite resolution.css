@@ -1,0 +1,40 @@
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
+{
+    nav
+    {
+        width: auto;
+        text-align: center;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    #imageflottante
+    {height: 60;
+ 
+    }
+    #newsletter
+    {
+
+    }
+
+    
+}
